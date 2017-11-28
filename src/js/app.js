@@ -1,3 +1,10 @@
+import '../css/main.css';
+import '../css/input-elements.css';
+
+import {secretParagraph, secretButton} from "./dom-loader";
+
+'./dom-loader';
+
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
